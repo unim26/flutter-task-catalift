@@ -1,7 +1,7 @@
 import 'package:flutter_task_catalift/core/constants/app_strings.dart';
 import 'package:flutter_task_catalift/models/course_model.dart';
 
-class LocalData {
+class LocalDataService {
   //course list
   final List<CourseModel> cousreList = <CourseModel>[
     //1st course
@@ -33,20 +33,21 @@ class LocalData {
       enrolledUser: 4000,
       rating: 4.0,
     ),
-    //4rd course
-    CourseModel(
-      courseDetail: AppStrings.dummyCousreDetail,
-      coverImage: 'assets/images/computer_engineering_cover_img.jpeg',
-      courseName: 'Computer Engineering',
-      coursePrice: 1500,
-      enrolledUser: 4000,
-      rating: 4.0,
-    ),
+
     //5rd course
     CourseModel(
       courseDetail: AppStrings.dummyCousreDetail,
       coverImage: 'assets/images/artificial_img.jpeg',
       courseName: 'Artificial engineering',
+      coursePrice: 1500,
+      enrolledUser: 4000,
+      rating: 4.0,
+    ),
+    //4rd course
+    CourseModel(
+      courseDetail: AppStrings.dummyCousreDetail,
+      coverImage: 'assets/images/computer_engineering_cover_img.jpeg',
+      courseName: 'Computer Engineering',
       coursePrice: 1500,
       enrolledUser: 4000,
       rating: 4.0,
