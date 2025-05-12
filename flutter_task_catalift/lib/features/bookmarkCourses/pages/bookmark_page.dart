@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task_catalift/features/bookmarkCourses/controller/bookmark_controller.dart';
-import 'package:flutter_task_catalift/features/home/controller/home_controller.dart';
 import 'package:flutter_task_catalift/features/home/widgets/course_card.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';

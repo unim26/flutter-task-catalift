@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_task_catalift/features/bookmarkCourses/controller/bookmark_controller.dart';
 import 'package:flutter_task_catalift/models/course_model.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CourseCard extends StatelessWidget {
